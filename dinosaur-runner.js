@@ -2,7 +2,7 @@ let dinosaur = document.getElementById("dinosaur");
 let seconds = 0;
 let secondsCnt = document.getElementById("secondsCounter"); 
 
-let interval = setInterval(function() {
+let resetStartPos = setInterval(function() {
     let obstacle1 = document.getElementById("obstacle1");
     let obstacle2 = document.getElementById("obstacle2");
     obstacle1.style.visibility = "hidden";
